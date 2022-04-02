@@ -27,15 +27,13 @@ void isArmstrong(int n, int number)
 
 }
 
-int main(){
-
-
+int main()
+{
     int x;
     printf("Enter any number to see wheter it is an armstrong number or not:\n");
     scanf("%d",&x);
     int digit_num = how_many_digit(x);
     isArmstrong(digit_num,x);
-
     return 0;
 }
 
@@ -52,8 +50,8 @@ int how_many_digit(int n)
     return i;
 }
 
-int pov(int number, int power){
-
+int pov(int number, int power)
+{
     int result = 1;
     for (int i = 1; i <= power; i++) {
         result = number *result;
