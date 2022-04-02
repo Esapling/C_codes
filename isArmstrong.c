@@ -5,8 +5,7 @@
 int pov(int,int); // just pow function but return type is int
 int how_many_digit(int); //to see how many digits an input has
 
-void isArmstrong(int n, int number)
-{
+void isArmstrong(int n, int number){
     int arr[n];
     arr[0]=0; // to prevent any unwanted results
     int sum= 0;
