@@ -9,7 +9,7 @@ struct players
     int age;
     char category[10];
 };
-// Hold each team's info two player in each team 
+// Hold each team's info and  two player in each team 
 struct tournament{
     char name_team[10];
     struct players player1;
@@ -24,7 +24,7 @@ void form_player(struct players *pl){
         scanf("%s",pl->surname);
         
         printf("Enter player's age: ");
-        scanf("%d",&pl->age); // age bir adres degil bu yuzden & konuldu onemli olan pl ne degil onemli olan -> dan sonrakinin ne oldugu
+        scanf("%d",&pl->age); 
         
         printf("Enter player's competition category: ");
         scanf("%s",pl->category); 
